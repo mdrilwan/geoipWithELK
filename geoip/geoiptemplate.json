@@ -1,0 +1,19 @@
+{
+  "mappings": {
+    "doc": {
+      "properties": {
+	"geoip"  : {
+          "type" : "object",
+          "dynamic": true,
+          "properties" : {
+            "location" : { "type" : "geo_point" }
+          }
+        }
+      }
+    }
+  },
+  "settings": {
+    "index.refresh_interval": "5s"
+  },
+  "template": "geoip"
+}
