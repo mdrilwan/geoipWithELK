@@ -26,3 +26,5 @@ curl --header "content-type: application/JSON" -XPUT 'http://localhost:9200/_tem
 Update the path of input file in logstash configuration file geoip.conf and start logstash
 
 Once data is indexed in elasticsearch, you can try tilemap visualization in kibana
+
+For details, visit http://rilwan.in/get-location-from-geoip-using-elk/
